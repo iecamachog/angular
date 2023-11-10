@@ -8,7 +8,7 @@ Para la instalación de Node js en windows se puede acceder desde https://nodejs
 
 Para que la terminal es necesario realizar la siguiente búsqueda en windows y abrir command prompt:
 
-<img src="https://github.com/iecamachog/angular/assets/132395694/ab1c7e08-1b7c-4542-b1ac-4dd68f9653b6" width="500px" >
+![image](https://github.com/iecamachog/angular/assets/132395694/5ff84a63-158a-4990-9d90-523162c1d390)
 
 Posterior se ingresara el siguiente comando para la instalación de Angular:
 
@@ -23,18 +23,10 @@ ng new hola-mundo-example
 ```
 > El nombre hola-mundo-example, solo es referencia a la creación de un primer hola mundo.
 
-El siguiente mensaje, nos indica si se desea agregar el archivo **routing**, este archivo sirve para declarar las rutas o url de las vistas a un futuro,
+Nos mostrará un mensaje, nos indica si se desea agregar el archivo **routing**, este archivo sirve para declarar las rutas o url de las vistas a un futuro,
 lo conveniente es teclear **y** y Enter.
 
-
-<img src="https://github.com/iecamachog/angular/assets/132395694/a4dc524c-cd6b-4e83-8b87-c773588a63fc" width="500px" >
-
-
-Ahora nos indica seleccionar que estilos utilizaremos, daremos enter para seleccionar los **CSS**
-
-
-<img src="https://github.com/iecamachog/angular/assets/132395694/b526eab9-3bba-48cc-9b89-fa33eb0f002f" width="500px" >
-
+Seguido nos indica seleccionar que estilos utilizaremos, daremos enter para seleccionar los **CSS**
 
 ## Estructura de archivos.
 
@@ -46,11 +38,13 @@ Los primeros archivos que modificaremos están en la carpeta **app**
 
 ## Estructura al recién crear un proyecto angular
 
-![image](https://github.com/iecamachog/angular/assets/132395694/efc1db28-6d55-4098-8f61-db3cb4f76d9a)
+![Captura de pantalla 2023-11-10 110809](https://github.com/iecamachog/angular/assets/132395694/ea2101c7-ad7c-4d03-966d-eb0916767689)
+
 
 ## Ejemplo de cómo deberá quedar el archivo app.component.html
 
-![image](https://github.com/iecamachog/angular/assets/132395694/fb99ddf1-f622-46a3-becf-9d35e89f40f9)
+![Captura de pantalla 2023-11-10 111338](https://github.com/iecamachog/angular/assets/132395694/e58b79a0-b033-49ca-a83a-67f083b53591)
+
 
 # Creación de un componente
 
@@ -70,10 +64,12 @@ Para crear el componente lo podemos hacer de manera sencilla en la terminal:
 ```
 
 > Posible mensaje al crear el primer componente, teclear **y** y enter:
-![image](https://github.com/iecamachog/angular/assets/132395694/7906b3ae-6e76-4e35-a425-c0f98c57fdae)
+![Captura de pantalla 2023-11-10 112256](https://github.com/iecamachog/angular/assets/132395694/fc690b39-2a9c-4d66-a450-11623e75a5e8)
 
 **Componente:**
-![image](https://github.com/iecamachog/angular/assets/132395694/ca48bf3f-0f43-4125-8916-414a76434c39)
+
+![Captura de pantalla 2023-11-10 112613](https://github.com/iecamachog/angular/assets/132395694/df8ab606-6877-49d3-ae38-02f77d2392e4)
+
 
 # Asignar ruta para observar el componente
 
@@ -90,15 +86,15 @@ La anterior línea representa que:
 > Recuerda importa el componente con **import { HolaMundoComponent } from './hola-mundo/hola-mundo.component';**
 
 ### El documento quedará así:
+![Captura de pantalla 2023-11-10 113258](https://github.com/iecamachog/angular/assets/132395694/9112804e-dd10-482b-90f8-4a4047491049)
 
-![image](https://github.com/iecamachog/angular/assets/132395694/9c5663fb-5c2e-4dca-b798-4e8b8d72e433)
 
 ### Levantamos la aplicación con **ng serve**
 
 Al tener todo correcto nos mostrará un mensaje con el puerto donde podemos acceder a la aplicación
+![Captura de pantalla 2023-11-10 113430](https://github.com/iecamachog/angular/assets/132395694/16897b4e-81a8-4756-a12a-c8a993493c3e)
 
-![image](https://github.com/iecamachog/angular/assets/132395694/747f1779-129c-4b89-b9e9-91c54936d109)
+
 
 > En mi caso la ruta para ver el archivo será http://localhost:49225/hola-mundo
-
-![image](https://github.com/iecamachog/angular/assets/132395694/7b0b4854-529f-4296-84c9-391cab5e9051)
+![Captura de pantalla 2023-11-10 113622](https://github.com/iecamachog/angular/assets/132395694/72fecc52-9eb5-4fbe-b4c7-3a43293a2629)
